@@ -13,12 +13,12 @@ Whenever you want to use the video tools, you can activate the environment using
 conda activate video_tools
 ```
 
-## Select Tool
-This tool can be used to view the frame number of a video. To open a video simply suply the path to the video file as an argument to the select python file.
+## Frame Select Tool
+This tool can be used to view the frame number of a video. To open a video simply supply the path to the video file as an argument to the select python file.
 
 For example:
 ```
-python select.py ~/Desktop/my_video.mp4
+python frame_select.py ~/Desktop/my_video.mp4
 ```
 
 This will open the video in a window, currently the following commands are available:
