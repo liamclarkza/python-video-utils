@@ -4,7 +4,7 @@
 A Conda enviroment file is provided to set up the environment for the video tools. To use the environment, simply enter the following commands in the same folder as the `conda_environment.yml` file:
 
 ```
-conda env create -f conda_environment.yml
+conda env create -f conda_environment.yaml
 ```
 
 Whenever you want to use the video tools, you can activate the environment using the command:
