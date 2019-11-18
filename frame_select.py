@@ -21,7 +21,6 @@ def show_frame(cap, frame_no):
 
 if __name__ =='__main__':
     #check if video arg is correct
-    print(sys.argv)
     assert len(sys.argv) > 1, "No video file path supplied command line argument"
     path = os.path.expanduser(sys.argv[1])
     assert os.path.exists(path), f"Cannot find file: {path}"
@@ -49,4 +48,5 @@ if __name__ =='__main__':
         current_frame = show_frame(cap, current_frame)
         key=cv2.waitKey(0)
 
+    cap.release()
     cv2.destroyAllWindows()

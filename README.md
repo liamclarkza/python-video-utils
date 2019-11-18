@@ -31,3 +31,13 @@ This will open the video in a window, currently the following commands are avail
 | [   | back n frames      |
 | s   | set n (default 10) |
 | q   | quit               |
+
+## Video Clipping Tool
+
+This tool allows you to extract frames from a video easily. The command is used as follows:
+
+```
+python clip_video.py input_path output_path start stop [step]
+```
+
+The `input_path` and `output_path` are the locations of the video files and `start` `stop` and `step` are the starting frame, end frame where step is the size of the jump between frames. The `step` parameter is optional.
