@@ -29,7 +29,9 @@ This will open the video in a window, currently the following commands are avail
 | ,   | back 1 frame       |
 | ]   | forward n frames   |
 | [   | back n frames      |
-| s   | set n (default 10) |
+| =   | double n           |
+| -   | halve n            |
+| s   | set n              |
 | q   | quit               |
 
 ## Video Clipping Tool
