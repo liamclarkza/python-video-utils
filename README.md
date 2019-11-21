@@ -43,3 +43,11 @@ python clip_video.py input_path output_path start stop [step]
 ```
 
 The `input_path` and `output_path` are the locations of the video files and `start` `stop` and `step` are the starting frame, end frame where step is the size of the jump between frames. The `step` parameter is optional.
+
+## Video Joining Tool
+
+This tool allows you to join multiple videos together. To join videos use the command below:
+
+```
+python join_videos.py output_video_path video_1_path video_2_path [video_3_path...]
+```
